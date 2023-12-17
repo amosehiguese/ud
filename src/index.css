@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-[Raleway] m-0 p-0 box-border bg-gray-50;
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(./assets/banner.jpg) no-repeat right center;
+  background-size: cover;
+}
+
+.fixed-nav {
+  @apply fixed top-0 left-0 w-full bg-slate-900;
+}
