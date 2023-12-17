@@ -11,7 +11,7 @@ import { Header } from './components/Header';
 export const App = () => {
   return (
     <div className='overflow-hidden'>
-      <div id='home' className='banner'>
+      <div id='home' className='banner max-h-screen'>
         <Header />
         <Hero />
       </div>

@@ -4,7 +4,7 @@ import ReactTyped from 'react-typed';
 
 export const Hero = () => {
   return (
-    <div className='w-full h-screen '>
+    <div className='w-full h-screen lg:h-[calc(100vh-80px)] '>
       {/* Container */}
       <div className='lg:w-fit xl:w-full max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-white'>Hi, my name is</p>
@@ -19,12 +19,15 @@ export const Hero = () => {
           Crafting elevating mobile user experiences with Kotlin
         </p>
         <div>
-          <button className='bg-blue-600 rounded-full text-white transition-all group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-600 hover:border-blue-600 hover:scale-110  duration-300'>
+          <a
+            href='#work'
+            className='bg-blue-600 w-fit rounded-full text-white transition-all group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-600 hover:border-blue-600 hover:scale-110  duration-300 scroll-link'
+          >
             View Work
             <span className='duration-300'>
               <HiArrowNarrowRight className='ml-3 ' />
             </span>
-          </button>
+          </a>
         </div>
       </div>
     </div>
