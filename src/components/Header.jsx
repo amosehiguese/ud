@@ -82,12 +82,12 @@ export const Header = () => {
           </a>
         </li>
 
-        <li className='uppercase text-sm font-semibold hover:scale-150 transition duration-100'>
+        <li className='uppercase text-sm font-semibold hover:scale-150 transition duration-100 '>
           <a href='#work' className='scroll-link'>
             Work
           </a>
         </li>
-        <li className='uppercase text-sm font-semibold hover:scale-150 transition duration-100'>
+        <li className='uppercase text-sm font-semibold hover:scale-150 transition duration-100 '>
           <a href='#contact' className='scroll-link'>
             Contact
           </a>
@@ -107,32 +107,32 @@ export const Header = () => {
             : 'absolute top-14 z-50 rounded-md right-4 py-4 px-2 w-fit h-fit transition-opacity  bg-[#08111e] flex flex-col justify-center items-start links-container '
         }
       >
-        <li className='py-1 text-1xl uppercase font-semibold scroll-link'>
-          <a href='#home' className='  '>
+        <li className='py-1 text-1xl uppercase font-semibold '>
+          <a href='#home' className='scroll-link  '>
             Home
           </a>
         </li>
-        <li className='py-1 text-1xl uppercase font-semibold scroll-link'>
+        <li className='py-1 text-1xl uppercase font-semibold '>
           {' '}
-          <a href='#about' className=''>
+          <a href='#about' className='scroll-link'>
             About
           </a>
         </li>
-        <li className='py-1 text-1xl uppercase font-semibold scroll-link'>
+        <li className='py-1 text-1xl uppercase font-semibold'>
           {' '}
-          <a href='#skills' className=''>
+          <a href='#skills' className='scroll-link'>
             Skills
           </a>
         </li>
-        <li className='py-1 text-1xl uppercase font-semibold scroll-link '>
+        <li className='py-1 text-1xl uppercase font-semibold '>
           {' '}
-          <a href='#work' className=''>
+          <a href='#work' className='scroll-link'>
             Work
           </a>
         </li>
-        <li className='py-1 text-1xl uppercase font-semibold scroll-link'>
+        <li className='py-1 text-1xl uppercase font-semibold '>
           {' '}
-          <a href='#contact' className=''>
+          <a href='#contact' className='scroll-link'>
             Contact
           </a>
         </li>
