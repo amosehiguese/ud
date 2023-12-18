@@ -16,11 +16,11 @@ export const About = () => {
           </div>
         </div>
         <div className='max-w-[1000px] w-full grid place-items-center sm:grid-cols-2 gap-8 px-4'>
-          <div className='sm:text-right text-4xl font-bold'>
+          <div className=' text-4xl font-bold'>
             <img src={aboutImg} className=' mt-3 h-64 rounded-full' />
           </div>
           <div>
-            <p className='font-bold tracking-wider '>
+            <p className='font-bold tracking-wider md:text-left text-center  '>
               I am an enthusiastic and detail-oriented professional with
               foundational experience in developing native Android applications.
               Proficient in both Java and Kotlin programming languages. <br />{' '}
