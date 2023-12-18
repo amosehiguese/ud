@@ -57,7 +57,11 @@ export const Header = () => {
   return (
     <div className='nav w-full mx-auto z-50 h-[80px] flex justify-between items-center px-8  text-white'>
       <div className='lg:pl-8'>
-        <h1 className='font-bold text-4xl'>UDUAK</h1>
+        <h1 className='font-bold text-4xl'>
+          <a href='#home' className='scroll-link'>
+            UDU<span className='text-teal-300'>AK</span>
+          </a>
+        </h1>
       </div>
 
       {/* menu */}
@@ -100,33 +104,33 @@ export const Header = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full transition-opacity h-screen bg-[#08111e] flex flex-col justify-center items-center links-container'
+            : 'absolute top-14 z-50 rounded-md right-4 py-4 px-2 w-fit h-fit transition-opacity  bg-[#08111e] flex flex-col justify-center items-start links-container '
         }
       >
-        <li className='py-6 text-1xl uppercase font-semibold hover:scale-150 transition duration-100'>
-          <a href='#home' className='scroll-link'>
+        <li className='py-1 text-1xl uppercase font-semibold'>
+          <a href='#home' className='scroll-link  '>
             Home
           </a>
         </li>
-        <li className='py-6 text-1xl uppercase font-semibold hover:scale-150 transition duration-100'>
+        <li className='py-1 text-1xl uppercase font-semibold'>
           {' '}
           <a href='#about' className='scroll-link'>
             About
           </a>
         </li>
-        <li className='py-6 text-1xl uppercase font-semibold hover:scale-150 transition duration-100'>
+        <li className='py-1 text-1xl uppercase font-semibold'>
           {' '}
           <a href='#skills' className='scroll-link'>
             Skills
           </a>
         </li>
-        <li className='py-6 text-1xl uppercase font-semibold  hover:scale-150 transition duration-100'>
+        <li className='py-1 text-1xl uppercase font-semibold '>
           {' '}
           <a href='#work' className='scroll-link'>
             Work
           </a>
         </li>
-        <li className='py-6 text-1xl uppercase font-semibold hover:scale-150 transition duration-100'>
+        <li className='py-1 text-1xl uppercase font-semibold'>
           {' '}
           <a href='#contact' className='scroll-link'>
             Contact
@@ -137,26 +141,29 @@ export const Header = () => {
       {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between rounded-full rounded-l-none items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          <li className='w-[160px] h-[60px] flex justify-between  rounded-l-none items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
+              target='_blank'
               className='flex justify-between items-center w-full text-white'
-              href='/'
+              href='https://www.linkedin.com/in/uduak-umanah-33936814b/'
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between rounded-full mt-2 rounded-l-none items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+          <li className='w-[160px] h-[60px] flex justify-between  mt-2 rounded-l-none items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
+              target='_blank'
               className='flex justify-between items-center w-full text-white'
-              href='/'
+              href='https://github.com/UduakUmanah10'
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between rounded-full mt-2 rounded-l-none items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-white'>
+          <li className='w-[160px] h-[60px] flex justify-between  mt-2 rounded-l-none items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-white'>
             <a
+              target='_blank'
               className='flex justify-between items-center w-full text-slate-800'
-              href='/'
+              href='https://twitter.com/uduak_umanah'
             >
               Twitter <FaSquareXTwitter size={30} />
             </a>

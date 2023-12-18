@@ -1,35 +1,28 @@
 import { nanoid } from 'nanoid';
+import exposed from './assets/exposed.png';
+import hunter from './assets/hunter.png';
+import newsapp from './assets/newsapp.png';
 
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: '#',
-    github: '#',
-    title: 'First Project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: exposed,
+    github: 'https://github.com/UduakUmanah10/Exposed',
+    title: 'Exposed',
+    text: 'collaborated with JetBrains Exposed development team to overhaul the documentation for the Exposed library.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: '#',
-    github: '#',
-    title: 'Second Project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: hunter,
+    github: 'https://github.com/UduakUmanah10/HazardHunter',
+    title: 'Hazard Hunter',
+    text: 'Hazard Hunter is an Android application designed to bolster safety measures in workplace environments.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    github: 'https://github.com/amosehiguese/subdomain-scanner',
-    title: 'Third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
-  },
-  {
-    id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    github: 'https://github.com/amosehiguese/subdomain-scanner',
-    title: 'Fourth project',
-    url: '#',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: newsapp,
+    github: 'https://github.com/UduakUmanah10/NewsApp',
+    title: 'News App',
+    text: 'tailored to retrieve data from a news API via a backend system, and subsequently presents it on an Android client.',
   },
 ];

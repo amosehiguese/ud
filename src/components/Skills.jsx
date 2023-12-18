@@ -1,11 +1,15 @@
 import React from 'react';
 
-import KOTLIN from '../assets/kotlin.png';
-import Java from '../assets/java.jpg';
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import GitHub from '../assets/github.png';
+
+import { IoLogoFirebase } from 'react-icons/io5';
+import { FaJava } from 'react-icons/fa6';
+import { SiKotlin } from 'react-icons/si';
+import { SiTypescript } from 'react-icons/si';
+// import { DiMongodb } from 'react-icons/di';
 
 export const Skills = () => {
   return (
@@ -24,14 +28,30 @@ export const Skills = () => {
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
           <div className='hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={KOTLIN} alt='HTML icon' />
-            <p className='my-4'>KOTLIN</p>
+            <SiKotlin className='mx-auto text-[4rem] text-pink-600' />
+            <p className='my-4 '>KOTLIN</p>
           </div>
 
           <div className='hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Java} alt='SASS icon' />
+            <FaJava className='mx-auto text-[4rem]' />
             <p className='my-4'>JAVA</p>
           </div>
+
+          <div className='hover:scale-110 duration-500'>
+            <SiTypescript className='mx-auto text-[4rem]' />
+            <p className='my-4'>TYPESCRIPT</p>
+          </div>
+
+          <div className='hover:scale-110 duration-500'>
+            <IoLogoFirebase className='mx-auto text-[4rem] text-[#F57C00]' />
+            <p className='my-4'>FIREBASE</p>
+          </div>
+
+          {/* <div className='hover:scale-110 duration-500'>
+            <DiMongodb className='mx-auto text-[4rem]' />
+            <p className='my-4'>MONGODB</p>
+          </div> */}
+
           <div className='hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={HTML} alt='HTML icon' />
             <p className='my-4'>HTML</p>
