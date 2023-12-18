@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaSquareXTwitter } from 'react-icons/fa6';
 import { Navlinks } from './Navlinks';

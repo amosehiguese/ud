@@ -1,4 +1,4 @@
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
+import { FaGithubSquare } from 'react-icons/fa';
 import { TbWorldWww } from 'react-icons/tb';
 
 export const ProjectsCard = ({ url, img, github, title, text }) => {
