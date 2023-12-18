@@ -107,32 +107,32 @@ export const Header = () => {
             : 'absolute top-14 z-50 rounded-md right-4 py-4 px-2 w-fit h-fit transition-opacity  bg-[#08111e] flex flex-col justify-center items-start links-container '
         }
       >
-        <li className='py-1 text-1xl uppercase font-semibold'>
-          <a href='#home' className='scroll-link  '>
+        <li className='py-1 text-1xl uppercase font-semibold scroll-link'>
+          <a href='#home' className='  '>
             Home
           </a>
         </li>
-        <li className='py-1 text-1xl uppercase font-semibold'>
+        <li className='py-1 text-1xl uppercase font-semibold scroll-link'>
           {' '}
-          <a href='#about' className='scroll-link'>
+          <a href='#about' className=''>
             About
           </a>
         </li>
-        <li className='py-1 text-1xl uppercase font-semibold'>
+        <li className='py-1 text-1xl uppercase font-semibold scroll-link'>
           {' '}
-          <a href='#skills' className='scroll-link'>
+          <a href='#skills' className=''>
             Skills
           </a>
         </li>
-        <li className='py-1 text-1xl uppercase font-semibold '>
+        <li className='py-1 text-1xl uppercase font-semibold scroll-link '>
           {' '}
-          <a href='#work' className='scroll-link'>
+          <a href='#work' className=''>
             Work
           </a>
         </li>
-        <li className='py-1 text-1xl uppercase font-semibold'>
+        <li className='py-1 text-1xl uppercase font-semibold scroll-link'>
           {' '}
-          <a href='#contact' className='scroll-link'>
+          <a href='#contact' className=''>
             Contact
           </a>
         </li>

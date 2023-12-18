@@ -5,7 +5,7 @@ import ReactTyped from 'react-typed';
 
 export const Hero = () => {
   return (
-    <div className='w-full h-screen lg:h-[calc(100vh-80px)] '>
+    <div className='w-full  h-[calc(100vh-80px)] '>
       {/* Container */}
       <div className='lg:w-fit xl:w-full max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full relative'>
         {/* Image */}
