@@ -9,6 +9,8 @@ import { IoLogoFirebase } from 'react-icons/io5';
 import { FaJava } from 'react-icons/fa6';
 import { SiKotlin } from 'react-icons/si';
 import { SiTypescript } from 'react-icons/si';
+import android from '../assets/android-logo.jpg';
+
 // import { DiMongodb } from 'react-icons/di';
 
 export const Skills = () => {
@@ -30,6 +32,14 @@ export const Skills = () => {
           <div className='hover:scale-110 duration-500'>
             <SiKotlin className='mx-auto text-[4rem] text-pink-600' />
             <p className='my-4 '>KOTLIN</p>
+          </div>
+          <div className='hover:scale-110 duration-500'>
+            <img
+              className='w-20 mx-auto rounded-md'
+              src={android}
+              alt='Android icon'
+            />
+            <p className='my-4'>Android</p>
           </div>
 
           <div className='hover:scale-110 duration-500'>
@@ -59,14 +69,6 @@ export const Skills = () => {
           <div className='hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={CSS} alt='CSS icon' />
             <p className='my-4'>CSS</p>
-          </div>
-          <div className='hover:scale-110 duration-500'>
-            <img
-              className='w-20 mx-auto'
-              src={JavaScript}
-              alt='Javascript icon'
-            />
-            <p className='my-4'>JAVASCRIPT</p>
           </div>
 
           <div className='hover:scale-110 duration-500'>
