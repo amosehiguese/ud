@@ -121,7 +121,7 @@ export const Contact = () => {
           </button>
           <a
             href={pdf}
-            download='01-Uduak-Umanah-resume.pdf'
+            download='Uduak-Umanah-resume.pdf'
             className='text-white bg-gray-700 hover:bg-gray-900  px-4 py-3 my-8 mx-auto flex items-center  hover:scale-110  duration-300 '
           >
             Download CV

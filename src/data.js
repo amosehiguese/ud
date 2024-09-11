@@ -14,6 +14,13 @@ export const links = [
 export const projects = [
   {
     id: nanoid(),
+    img: 'https://openmf.github.io/mobileapps.github.io/assets/img/mifos-mobile.png',
+    github: 'https://github.com/openMF/mifos-mobile',
+    title: 'Mifos mobile banking Application',
+    text: 'Collaborated with developers to integrate UI components, improving UI consistency by 30%.',
+  },
+  {
+    id: nanoid(),
     img: exposed,
     github: 'https://github.com/UduakUmanah10/Exposed',
     title: 'Exposed',
